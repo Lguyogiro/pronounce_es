@@ -48,6 +48,18 @@ def convert(ipa):
     ipa = ipa if isinstance(ipa, unicode) else ipa.decode('utf-8')
     return ''.join([symbol_map.get(char, char) for char in ipa])
 
+
+def write_sampa_file(ipa_file, sampa_filename):
+    """
+    expects each line of ipa file to be <word> <ipatransctiption>.
+    """
+    with open(ipa_file) as f_in, open(sampa_filename, 'w') as f_out:
+        for line in f_in:
+            word, ipa = line.split(' ', 1)
+            sampa = convert(ipa.strip('\n'))
+            f_out.write("%s %s\n" % (word.encode('utf-8'),
+                                     sampa.encode('utf-8')))
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
