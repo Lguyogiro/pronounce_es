@@ -6,4 +6,4 @@ Spanish" transcriptions.
 ## Contributing
 Please feel free to contribute by adding more transcriptions of the words in wordlist_es.txt, or adding new words to wordlist_es.txt along with their
 transcriptions to ipa_transcriptions_es.txt and sampa_transcriptions_es.txt (Use the "convert" function in ipa_to_sampa.pyto get SAMPA from an
-IPA transcription).
+IPA transcription). Submit your additions/changes as a pull request and I will review/sync them.
