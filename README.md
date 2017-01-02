@@ -4,4 +4,4 @@ CMU corpus for English (http://www.speech.cs.cmu.edu/cgi-bin/cmudict). Currently
 Spanish" transcriptions.
 
 ## Contributing
-Please feel free to contribute by adding missing transcriptions to corpora/transcriptions_master.txt, or adding new words (You can use the "convert" function in ipa_to_sampa.py to get SAMPA from an IPA transcription). Submit your additions/changes as a pull request and I will review/sync them.
+Please feel free to contribute by adding missing transcriptions or fixing erroneous transcriptions in corpora/transcriptions_master.txt, or adding new words (You can use the "convert" function in ipa_to_sampa.py to get SAMPA from an IPA transcription). Submit your additions/changes as a pull request and I will review/sync them.
