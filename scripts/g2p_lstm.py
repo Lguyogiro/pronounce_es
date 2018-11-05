@@ -196,5 +196,6 @@ if __name__ == '__main__':
                                  "separated by a space, on each line."))
     argparser.add_argument('-i', '--interactive', action='store_true')
     args = argparser.parse_args()
+    main(args.transcriptions_file)
 
 
